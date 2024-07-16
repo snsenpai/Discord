@@ -27,7 +27,7 @@ client.on('ready', async () => {
     .setType('STREAMING')
     .setURL('https://www.twitch.tv/hutcalm') //Must be a youtube video link 
     .setState('Fate')
-    .setName('Yamete Kudasai')
+    .setName('Yamete ')
     .setDetails(`Me`)
     .setStartTimestamp()
  .setAssetsLargeImage('https://media.discordapp.net/attachments/1016707563594715267/1146895195808481363/saber.gif?ex=6696cf62&is=66957de2&hm=65ecd589a73f85f36020f016baadd72bb0211ce33d75f64c4cc30ecab3fe66b1&=') //You can put links in tenor or discord and etc.
