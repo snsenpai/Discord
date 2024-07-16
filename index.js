@@ -29,7 +29,7 @@ client.on('ready', async () => {
     .setState('Fate')
     .setName('Yamete Kudasai')
     .setDetails(`Me`)
-    .setStartTimestamp(Date.now())
+    .setStartTimestamp()
  .setAssetsLargeImage('https://media.discordapp.net/attachments/1016707563594715267/1146895195808481363/saber.gif?ex=6696cf62&is=66957de2&hm=65ecd589a73f85f36020f016baadd72bb0211ce33d75f64c4cc30ecab3fe66b1&=') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('Yamete Kudasai') //Text when you hover the Large image
     .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1016707563594715267/1146910829447491584/ezgif.com-crop.gif?ex=6696ddf2&is=66958c72&hm=b552e57cddeecdcad4a2fff09aec93f9cc12482dbefb80a6cad9a06668a1894b&') //You can put links in tenor or discord and etc.
