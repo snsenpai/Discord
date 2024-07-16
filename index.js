@@ -25,17 +25,17 @@ client.on('ready', async () => {
   const r = new Discord.RichPresence()
     .setApplicationId('')
     .setType('STREAMING')
-    .setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ') //Must be a youtube video link 
-    .setState('Recording')
-    .setName('')
-    .setDetails(`Valorant [${formatTime()}]`)
+    .setURL('https://www.twitch.tv/hutcalm') //Must be a youtube video link 
+    .setState('Fate')
+    .setName('Yamete Kudasai')
+    .setDetails(`Me`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('Boring') //Text when you hover the Large image
-    .setAssetsSmallImage('') //You can put links in tenor or discord and etc.
-    .setAssetsSmallText('Twitch') //Text when you hover the Small image
-    .addButton('Watch', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ')
-    .addButton('Donate', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1016707563594715267/1146895195808481363/saber.gif') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText('Yamete Kudasai') //Text when you hover the Large image
+    .setAssetsSmallImage('https://media.discordapp.net/attachments/1016707563594715267/1146910829447491584/ezgif.com-crop.gif') //You can put links in tenor or discord and etc.
+    .setAssetsSmallText('oi') //Text when you hover the Small image
+    .addButton('Discord', 'https://www.youtube.com/@snsenpai')
+    .addButton('Youtube', 'https://www.youtube.com/@snsenpai');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
