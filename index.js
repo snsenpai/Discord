@@ -25,7 +25,7 @@ client.on('ready', async () => {
   const r = new Discord.RichPresence()
     .setApplicationId('')
     .setType('STREAMING')
-    .setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ') //Must be a youtube video link 
+    .setURL('') //Must be a youtube video link 
     .setState('Recording')
     .setName('')
     .setDetails(`Valorant [${formatTime()}]`)
