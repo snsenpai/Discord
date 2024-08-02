@@ -30,9 +30,9 @@ client.on('ready', async () => {
     .setName('Yamete Kudasai')
     .setDetails(`Me`)
     .setStartTimestamp()
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1016707563594715267/1146895195808481363/saber.gif?ex=66abe762&is=66aa95e2&hm=e3d1e1d73519bcdbe73e949fc49111be92305286943489cced090b527ad164fb&=&width=529&height=350') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1016707563594715267/1268817882570162269/tumblr_ngsnsj6cFe1s53g98o1_1280.gif?ex=66adce3c&is=66ac7cbc&hm=44538c5b7db68e478360f4a188a30689d118feed64e5f9f0b6599cc1ce2cfd28&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('Yamete Kudasai') //Text when you hover the Large image
-    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1016707563594715267/1146910829447491584/ezgif.com-crop.gif?ex=66abf5f2&is=66aaa472&hm=71b8a41542b71e78ebe5444b0d101a20a230b7e3eb2a0582c007c82151a71160&') //You can put links in tenor or discord and etc.
+    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1016707563594715267/1268817570254028841/animesher.com_girl-black-gumi-980940.gif?ex=66adcdf2&is=66ac7c72&hm=736028ab09419d527e22e1e9c12f6a770bd0bf01e5be09f3e16e7ffb8ea58477&') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('oi') //Text when you hover the Small image
     .addButton('Discord', 'https://www.youtube.com/@snsenpai')
     .addButton('Youtube', 'https://www.youtube.com/@snsenpai');
