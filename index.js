@@ -30,9 +30,9 @@ client.on('ready', async () => {
     .setName('Yamete Kudasai')
     .setDetails(`Me`)
     .setStartTimestamp()
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1016707563594715267/1146895195808481363/saber.gif?ex=66af3322&is=66ade1a2&hm=05e9a82c121e5ba8b59ac3fdb75e84e27e65c8affc6bd5452cfdddaf8a2c8006&=') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1016707563594715267/1146895195808481363/saber.gif?ex=66ced722&is=66cd85a2&hm=d9ff4b774139f9918511389c891cf7830b30898fc711e13c0db42d10930390c3&=&width=529&height=350') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('Yamete Kudasai') //Text when you hover the Large image
-    .setAssetsSmallImage('https://media.discordapp.net/attachments/1016707563594715267/1146910829447491584/ezgif.com-crop.gif?ex=66af41b2&is=66adf032&hm=eec7c1f372069c890798ffb909af95472c1af3ca67175ef08ddad013d6d8a11c&=') //You can put links in tenor or discord and etc.
+    .setAssetsSmallImage('https://media.discordapp.net/attachments/1016707563594715267/1146910829447491584/ezgif.com-crop.gif?ex=66cee5b2&is=66cd9432&hm=498e90768887e63b2fa2eb6efae5fdd15b8f3992ad34753f896e841122a34b78&=') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('oi') //Text when you hover the Small image
     .addButton('Discord', 'https://www.youtube.com/@snsenpai')
     .addButton('Youtube', 'https://www.youtube.com/@snsenpai');
